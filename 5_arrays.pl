@@ -7,7 +7,7 @@
 @names=('Novak', 'Roger', 'Andy');
 
 print "All ranks: @ranks\n";
-print "All names: @names\n:";
+print "All names: @names\n";
 
 
 # Perl starts counting from Zero (0) as the first element

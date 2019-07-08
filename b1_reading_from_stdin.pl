@@ -6,5 +6,5 @@ print "Hello World! Wie lautet dein Name\n";
 my $vorname;
 
 $vorname = readline STDIN;
-
-print "Hallo $vorname\n";
+chomp $vorname; #removes last character which would be a Return
+print "Hallo $vorname. Schön, dass Du hier bist. \n";
